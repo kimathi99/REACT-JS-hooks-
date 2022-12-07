@@ -24,6 +24,9 @@ import FetchingData from './components/useeffect/fetchingData';
 import FirstReducer from './components/usereducers/firstreducer';
 import SecondReducer from './components/usereducers/secondreducer';
 import MyUseReducer from './components/usereducers/myusereducer';
+import FetchDataWithState from './components/usereducers/fetchdatareducerstate';
+import FetchingDataWithReducer from './components/usereducers/FetchingDataWithReducer';
+import ContextThing from './components/nestedComponentsForContext/contextcomponent';
 
 function App() {
   return (
@@ -31,7 +34,10 @@ function App() {
     <AuthProvider>
       <Navbar/>
       <Routes>
-         <Route path='/third' element={<MyUseReducer/>}/>
+        <Route path='/sixth' element={<ContextThing/>}/>        
+        <Route path='/five' element={<FetchingDataWithReducer/>}/>
+        <Route path='/fourth' element={<FetchDataWithState/>}/>
+        <Route path='/third' element={<MyUseReducer/>}/>
         <Route path='/second' element={<SecondReducer/>}/>
         <Route path='/first' element={<FirstReducer/>}/>
         <Route path='/fetch' element={<FetchingData/>}/>

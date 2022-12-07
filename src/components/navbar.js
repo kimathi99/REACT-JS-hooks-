@@ -28,7 +28,9 @@ export const Navbar= ()=>{
             <NavLink  style={NavLinkStyles} to ='/first'>Reducers</NavLink>
             <NavLink  style={NavLinkStyles} to ='/second'>ReducersRedux</NavLink>            
             <NavLink  style={NavLinkStyles} to ='/third'>MyGrip</NavLink>
-           
+            <NavLink  style={NavLinkStyles} to ='/fourth'>FetchingUstate</NavLink>
+            <NavLink  style={NavLinkStyles} to ='/five'>FetchingUstate</NavLink>
+           <NavLink  style={NavLinkStyles} to ='/sixth'>REDUCER-CONTEXT</NavLink>
             <NavLink  style={NavLinkStyles} to ='/profile'>Profile</NavLink>
            
 
